@@ -1,0 +1,21 @@
+.control-stage {
+  width: 80%;
+  height: 80vh;
+  margin: 3%;
+  background: tomato;
+}
+
+.control-buttons {
+  width: 30%;
+  height: 30%;
+  background: yellow;
+}
+
+.button-one,
+.button-two,
+.button-three,
+.button-four {
+
+    width:40%;
+    height:40%;
+}

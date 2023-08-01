@@ -1,0 +1,31 @@
+.game-stage {
+  width: 80%;
+  height: 500px;
+  margin: 2% auto;
+  border: 1px solid #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.pipeImage {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  animation: pipe-animation 2s infinite linear;
+}
+
+.mario {
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+}
+
+@keyframes pipe-animation {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 100%;
+  }
+}
