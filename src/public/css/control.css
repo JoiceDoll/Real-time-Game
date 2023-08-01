@@ -1,8 +1,8 @@
 .control-stage {
-  width: 80%;
-  height: 80vh;
-  margin: 3%;
-  background: tomato;
+  width: 100%;
+  height: 100vh;
+  background: var(--purple);
+  position: relative;
 }
 
 .control-buttons {
@@ -15,7 +15,51 @@
 .button-two,
 .button-three,
 .button-four {
+  width: 40%;
+  height: 40%;
+}
 
-    width:40%;
-    height:40%;
+.general-div-control {
+  width: 50%;
+  height: 40%;
+  background: var(--grey);
+  margin: 10% 25%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 800px;
+  align-items: start;
+}
+
+.left-side-control {
+  width: 60%;
+  height: 110%;
+  background: var(--grey);
+  border-radius: 70%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.middle-control {
+  width: 20%;
+  height: auto;
+  background: var(--grey);
+
+  z-index: 1;
+}
+.right-side-control {
+  width: 60%;
+  height: 110%;
+  background: var(--grey);
+  border-radius: 70%;
+  z-index: 2;
+}
+
+.border-left {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  z-index: 3;
+  border: 2px solid var(--shadow);
+  margin-left: 20%;
 }
