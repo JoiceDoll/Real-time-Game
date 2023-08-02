@@ -64,7 +64,6 @@
 .middle-control {
   width: 30%;
   height: 100%;
-  /* background: var(--grey); */
   position: relative;
 }
 
@@ -73,6 +72,7 @@
   width: 100%;
   height: 25%;
   bottom: 25%;
+  right: 15%;
   display: flex;
   justify-content: space-around;
 }
@@ -84,6 +84,7 @@
   rotate: 45deg;
   background: var(--darkGrey);
 }
+
 .right-side-control {
   width: 60%;
   height: 110%;
@@ -92,10 +93,31 @@
 }
 
 .border-left {
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
   border-radius: 50%;
-  z-index: 3;
   border: 2px solid var(--shadow);
-  margin-left: 20%;
+  margin-left: 15%;
+}
+
+.shadown-right-buttons {
+  width: 90%;
+  height: 90%;
+  background: var(--shadow);
+  border-radius: 60%;
+  align-items: center;
+  margin: 5% 5%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  padding: 10%;
+}
+
+.top-buttons,
+.bottom-buttons {
+  width: 70%;
+  height: 25%;
+  background: #cbccc9;
+  border-radius: 40px;
+  rotate: 340deg;
 }
