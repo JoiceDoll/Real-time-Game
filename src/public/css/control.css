@@ -8,7 +8,6 @@
 .control-buttons {
   width: 70%;
   height: 70%;
-
   margin: 15% 15%;
 }
 
@@ -46,6 +45,17 @@
   height: 40%;
   background: var(--grey);
   margin: 10% 25%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 800px;
+  align-items: start;
+}
+.shadow-control{
+  width: 50%;
+  height: 45%;
+  background: #4242421c;
+  margin: 15% 27%;
   position: absolute;
   display: flex;
   justify-content: space-around;
@@ -117,7 +127,28 @@
 .bottom-buttons {
   width: 70%;
   height: 25%;
-  background: #cbccc9;
+  background: var(--lightGrey);
   border-radius: 40px;
   rotate: 340deg;
+  display: flex;
+  justify-content: space-around;
+  gap: 10%;
+}
+
+.button-top-one,
+.button-bottom-one {
+  width: 30%;
+  margin: 2%;
+  height: 90%;
+  border-radius: 70%;
+  background: var(--bottomPurpleButtons);
+}
+
+.button-top-two,
+.button-bottom-two {
+  width: 30%;
+  margin: 2%;
+  height: 90%;
+  border-radius: 70%;
+  background: var(--topPurpleButtons);
 }
