@@ -1,26 +1,51 @@
 .game-stage {
-  width: 80%;
-  height: 500px;
-  margin: 2% auto;
+  width: 100%;
+  height: 100vh;
   border: 1px solid #000000;
   position: relative;
   overflow: hidden;
+  background: var(--sky);
+}
+.clouds {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  top: 15%;
+  animation: cloud-animation 8s infinite linear;
 }
 
 .pipeImage {
   position: absolute;
-  bottom: 0;
   width: 80px;
   animation: pipe-animation 2s infinite linear;
+  bottom: 9%;
+}
+
+.floor {
+  position: absolute;
+  bottom: 0;
+  height: 45%;
+  width: 100%;
 }
 
 .mario {
   width: 120px;
   position: absolute;
-  bottom: 0;
+  bottom: 8%;
+  left: 5%;
 }
 
 @keyframes pipe-animation {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes cloud-animation {
   from {
     right: 0;
   }
