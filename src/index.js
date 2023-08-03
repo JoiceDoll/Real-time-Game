@@ -10,7 +10,7 @@ const io = require("socket.io")(server);
 app.set("view engine", "handlebars");
 app.engine("handlebars", exphbs.engine());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname + "./../" + "/public"));
+app.use(express.static("./public"));
 app.use(express.static("./pages"));
 
 app.get("/", gameStage.game);
