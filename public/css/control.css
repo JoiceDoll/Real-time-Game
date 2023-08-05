@@ -152,3 +152,33 @@
   border-radius: 70%;
   background: var(--topPurpleButtons);
 }
+
+@media (max-width: 600px) {
+  /* .control-stage {
+    position: absolute;
+  } */
+
+  .general-div-control {
+    rotate: 90deg;
+    width: 190%;
+    height: 30%;
+    margin: 70% -40%;
+
+    display: flex;
+    justify-content: space-around;
+    border-radius: 800px;
+    align-items: start;
+  }
+
+  .shadow-control {
+    width: 80%;
+    height: 80%;
+    background: #4242421c;
+    margin: 5% 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 800px;
+    align-items: start;
+  }
+}
