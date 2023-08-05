@@ -26,7 +26,7 @@ const loopPiper = setInterval(() => {
   ) {
     pipe.style.animation = "none";
     pipe.style.left = `${offSetPositionPipe}px`;
-    marioBros.setAttribute("src", "../images/game-over.png");
+    marioBros.setAttribute("src", "/public/images/game-over.png");
     marioBros.style.width = "50px";
     marioBros.style.height = "85px";
     background.style.display = "block"

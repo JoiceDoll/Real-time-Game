@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3031");
+const socket = io("http://localhost:8080");
 const upButton = document.querySelector(".button-one");
 const startButton = document.querySelector(".select-button");
 const stagePage = document.querySelector(".control-stage");
