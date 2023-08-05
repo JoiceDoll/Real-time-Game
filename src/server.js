@@ -1,5 +1,9 @@
+require('dotenv').config()
+
 const server = require("./index");
 
-server.listen(3031, () => {
-  console.log("Running at localhost:3031 ");
+const PORT = process.env.PORT || 3031
+
+server.listen(PORT, () => {
+  console.log(`Running at ${PORT}`);
 });
