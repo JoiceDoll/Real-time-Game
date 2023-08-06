@@ -1,5 +1,5 @@
-// const socket = io("https://real-time-game-production.up.railway.app");
-const socket = io("http://localhost:8080/");
+const socket = io("https://real-time-game-production.up.railway.app");
+// const socket = io("http://localhost:8080/");
 const upButton = document.querySelector(".button-one");
 const selectButton = document.querySelector(".select-button");
 const stagePage = document.querySelector(".control-stage");
