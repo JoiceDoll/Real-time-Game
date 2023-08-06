@@ -1,0 +1,31 @@
+.start-game {
+  width: 50%;
+  height: 70%;
+  background: inherit;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 20;
+  margin: 5% 25%;
+  border-radius: 20px;
+  display: block;
+}
+
+.press-start {
+  width: 35%;
+  height: 45%;
+  margin: 0 32%;
+}
+
+.qr-code {
+  width: 30%;
+  height: 40%;
+  margin: 0 34%;
+}
+
+.info-qr-code {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2%;
+  font-size: 0.6rem;
+}

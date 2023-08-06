@@ -41,6 +41,7 @@ app.get("/", gameStage.game);
 app.get("/control", controlGame.control);
 
 let controlEvents = [];
+let startEvents = []
 
 io.on("connection", (socket) => {
   console.log("socket conectado");
@@ -48,6 +49,13 @@ io.on("connection", (socket) => {
     controlEvents.push(data);
     socket.broadcast.emit("emitEventUpControl", data);
   });
+  socket.on("sendEventStartControl", (data) => {
+    startEvents.push(data);
+
+    socket.broadcast.emit("emitEventStartControl", data);
+  });
 });
+
+
 
 module.exports = server;

@@ -154,10 +154,6 @@
 }
 
 @media (max-width: 600px) {
-  /* .control-stage {
-    position: absolute;
-  } */
-
   .general-div-control {
     rotate: 90deg;
     width: 190%;
