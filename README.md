@@ -3,6 +3,9 @@
 Use node server.js to run or go to:
 https://real-time-game-production.up.railway.app/
 
+Linkedin post: 
+https://www.linkedin.com/feed/update/urn:li:activity:7094127412178751488/
+
 Game created with:
 
 - Socket.io
